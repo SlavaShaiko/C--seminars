@@ -17,7 +17,6 @@ int numA = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите второе число = ");
 int numB = Convert.ToInt32(Console.ReadLine());
 
-//int res = numB * numB;
 if((numB * numB) == numA)
 {
     Console.WriteLine($"значение {numA} - является квадратом числа = {numB}");
