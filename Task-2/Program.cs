@@ -7,13 +7,13 @@
 Console.Clear();
 Console.Write("Введите день недели = ");
 int day = Convert.ToInt32(Console.ReadLine());
-string Понедельник = Convert.ToString(1);
-string Вторник = Convert.ToString(2);
-string Среда = Convert.ToString(3);
-string Четверг = Convert.ToString(4);
-string Пятница = Convert.ToString(5);
-string Суббота = Convert.ToString(6);
-string Воскресенье = Convert.ToString(7);
+ string Понедельник = Convert.ToString(1);
+  string Вторник = Convert.ToString(2);
+   string Среда = Convert.ToString(3);
+    string Четверг = Convert.ToString(4);
+     string Пятница = Convert.ToString(5);
+      string Суббота = Convert.ToString(6);
+       string Воскресенье = Convert.ToString(7);
 
 if(day == 1)
    Console.WriteLine($"День недели - Понедельник");
