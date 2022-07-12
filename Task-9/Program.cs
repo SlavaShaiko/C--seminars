@@ -15,7 +15,7 @@ if (firstDigit > secondDigit) Console.WriteLine($"{num} -> {firstDigit}");
 else Console.WriteLine($"{num} -> {secondDigit}"); 
 */
 
-//int num = new Random().Next(10, 100);
+int num = new Random().Next(10, 100);
 
 int MaxDigit(int number)
 {
