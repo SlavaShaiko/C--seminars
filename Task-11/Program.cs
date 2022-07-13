@@ -7,7 +7,7 @@
 */
 
 // Console.Clear();
-// int num = new Random().Next(10, 1000);
+// int num = new Random().Next(99, 1000);
 // Console.WriteLine(num);
 // int first = num / 100;                //Без функции!!!
 // int second = num % 10;
@@ -15,7 +15,6 @@
 
 Console.Clear();
 int num = new Random().Next(10, 1000);
-Console.WriteLine(num);
 //int num = Convert.ToInt32(Console.ReadLine());
 
 int MetodDelete(int number)
@@ -25,4 +24,4 @@ int MetodDelete(int number)
     return first *10 + second;           //Добавили метод!!!
 }
 int metodDelete = MetodDelete(num);
-Console.WriteLine($"{num}->{metodDelete}");
+Console.WriteLine($"{num} -> {metodDelete}");

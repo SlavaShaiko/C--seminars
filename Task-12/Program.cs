@@ -8,9 +8,7 @@
 */
 Console.Clear();
 int numA = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine(numA);
 int numB = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine(numB);
 int result = numA % numB;
 
 if (result == 0)
