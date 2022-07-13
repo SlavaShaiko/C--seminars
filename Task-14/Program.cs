@@ -9,10 +9,10 @@
 Console.Clear();
 Console.Write("Введите число: ");
 int numA = Convert.ToInt32(Console.ReadLine());
-int a = 7;
-int b = 23;
+int sumA = 7;
+int sumB = 23;
 
-if (numA % a == 0 && numA % b == 0)
+if (numA % sumA == 0 && numA % sumB == 0)
 {
     Console.WriteLine($"{numA} -> да");
 }
