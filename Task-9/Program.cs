@@ -8,7 +8,7 @@
 
 
 Console.Clear();
-int number = new Random().Next(10, 100);
+int num = new Random().Next(10, 100);
 
 int MaxDigit(int number)
 {
@@ -18,12 +18,12 @@ int MaxDigit(int number)
     if (firstDigit > secondDigit) return firstDigit;
     return secondDigit;
 }
-int maxDigit = MaxDigit(number);
-if (maxDigit == 0) 
+int maxDigit = MaxDigit(num);
+if (maxDigit == 0)
 {
-    Console.WriteLine($"{number} -> Цифры одинаковые.");
+    Console.WriteLine($"{num} -> Цифры одинаковые.");
 }
-else 
+else
 {
-    Console.WriteLine($"{number} -> {maxDigit}");
+    Console.WriteLine($"{num} -> {maxDigit}");
 }
