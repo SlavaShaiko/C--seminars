@@ -6,16 +6,9 @@
 85 -> 8
 */
 
-Console.Clear();
-/*int num = new Random().Next(10, 100);
-int firstDigit = num / 10;
-int secondDigit = num % 10;
-if (firstDigit == secondDigit) Console.WriteLine("Цифры одинаковые.");
-if (firstDigit > secondDigit) Console.WriteLine($"{num} -> {firstDigit}");
-else Console.WriteLine($"{num} -> {secondDigit}"); 
-*/
 
-int num = new Random().Next(10, 100);
+Console.Clear();
+int number = new Random().Next(10, 100);
 
 int MaxDigit(int number)
 {
@@ -25,6 +18,12 @@ int MaxDigit(int number)
     if (firstDigit > secondDigit) return firstDigit;
     return secondDigit;
 }
-int maxDigit = MaxDigit(num);
-if (maxDigit == 0) Console.WriteLine($"{num} -> Цифры одинаковые.");
-else Console.WriteLine($"{num} -> {maxDigit}");
+int maxDigit = MaxDigit(number);
+if (maxDigit == 0) 
+{
+    Console.WriteLine($"{number} -> Цифры одинаковые.");
+}
+else 
+{
+    Console.WriteLine($"{number} -> {maxDigit}");
+}
